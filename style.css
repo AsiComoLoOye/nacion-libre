@@ -1,2 +1,12 @@
-/*Grupo NACION LogIn*/
-#LNA_background, #LNA_contenidoTotal,#ADI_background, #ADI_contenidoTotal,#PER_background, #PER_contenidoTotal, #EFI_background, #EFI_contenidoTotal, #LNA_background_paywall {display:none;}
+/* Eliminando elementos*/
+.LNA_paywall_modal_wrapper, #nacion-login-bar,.md-breakingnews-wrapper,#ad,
+.md-advertisement,.ad-split, .gna-corp-onsite-bar, .ad-wrap, #LNA_background_paywall, 
+#LNA_contenidoTotal, div[style*="opacity: 0.9; position: absolute; top: 0px; left: 0px;"], 
+#LNA_paywall_modal, #teja-login-bar, .per-plata-publicidad-plata, .per-advertisement-plata, 
+.alerta_susc_out, #ground_left_x57, #ground_right_x57, .outbrain-wrapper,
+#ToolbarWrap,.ToolbarInnerWrap, .gna_footer_background, .suscribase, 
+#conteo_notas_paywall  {width: 1px !important;height: 1px !important; opacity:0; display:none;}
+body { background:#fff; font-family: Verdana, Tahoma, Trebuchet y Georgia !important!;}
+h1, h2, h3, h4, h5,.nws .headline {
+	 font-family: Helvetica, sans-serif!important; font-weight: 400!important;
+}
